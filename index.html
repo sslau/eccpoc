@@ -26,11 +26,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <link href="/assets/video/video-js.css" rel="stylesheet">
   <link href="/assets/video/videojs-playlist-ui.css" rel="stylesheet">
-  <link href="/assets/css/main.css" rel="stylesheet">    
-  
+  <link href="/assets/css/main.css" rel="stylesheet">
+
 </head>
 <body class="bg-light" style="padding-top:78px;">
-  
+
 <section class="menu cid-qNJvHyvtA1" once="menu" id="menu1-e">
 <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,34 +46,19 @@
             <span class="navbar-logo">
             <a href="//">
                  <img src="/assets/images/ecclogo-big.png" alt="" title="" style="height: 3.5rem;">
-            </a>    
+            </a>
         </span>
-            <!--
-            <img src="/assets/images/language.jpg" style="width: 2rem; margin-top: 5px;">
--->
+
             <button class=" btn btn-outline-dark p-1 m-1 ml-3 my-sm-1" style="display: inline-block;"></button>
              <button class=" btn btn-outline-dark p-1 m-1 my-sm-1" style="display: inline-block;"></button>
-    <!--
-            <div class="nav navbar-nav navbar-left">           
-         <li style="margin-left: 20px;">
-             <img src="/assets/images/language.jpg" style="width: 2rem; margin-top: 5px;"><button class=" btn btn-outline-dark p-1 m-1 ml-3 my-sm-1" style="display: inline-block;"></button>
-             <button class=" btn btn-outline-dark p-1 m-1 my-sm-1" style="display: inline-block;"></button></li>        
-            </div>
-    -->
+
         </div>
     </div>
-        <!--
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
-         <li style="margin-left: 20px;"><img src="/assets/images/language.jpg" style="width: 2rem; margin-top: 5px;"><button class=" btn btn-outline-dark p-1 m-1 ml-3 my-sm-1" style="display: inline-block;"></button>
-             <button class=" btn btn-outline-dark p-1 m-1 my-sm-1" style="display: inline-block;"></button></li>   
-            </ul>
-    </div>
--->
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
             <li class="nav-item dropdown align-items-center">
-                <a class="nav-link link dropdown-toggle text-black display-4" 
+                <a class="nav-link link dropdown-toggle text-black display-4"
                     href="" data-toggle="dropdown-submenu" aria-expanded="false"></a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item text-black display-4" href="//"></a>
@@ -97,24 +82,24 @@
            <li class="nav-item"><a class="nav-link link text-black display-4" href="//">
            <li class="nav-item"><a class="nav-link link text-black display-4" href="//">
                 </a></li>
-            
-  <!--                
+
+  <!--
             <li style="margin-left: 20px;"><img src="/assets/images/language.jpg" style="width: 2rem; margin-top: 5px;"><button class=" btn btn-outline-dark p-1 m-1 ml-3 my-sm-1" style="display: inline-block;"></button>
-             <button class=" btn btn-outline-dark p-1 m-1 my-sm-1" style="display: inline-block;"></button></li>   
-    -->   
+             <button class=" btn btn-outline-dark p-1 m-1 my-sm-1" style="display: inline-block;"></button></li>
+    -->
         </ul>
 
         </div>
 </nav>
 </section>
 
-  
-  
-  
+
+
+
 <div class="row">
       <img style="position: relative; width: 100%; height: auto; margin-right: 0" src="/assets/images/seattleskyline.jpg">
 <div class="col-md-1">
-</div>    
+</div>
 <div class="col-md-10 ml4" style="text-align: center; margin-right: 10vw; margin-top: 50px; margin-left: 5vw; color: white; font-size: 1.8em;">
   <span class="letters letters-1">Welcome to<br>Evangelical Chinese Church</span>
   <span class="letters letters-2">西雅圖證道堂歡迎您</span>
@@ -123,7 +108,7 @@
 <div class="col-md-1"></div>
 </div>
 
-  
+
 <footer>
   <div class="footer fixed-bottom bg-white text-dark text-center">
     <p style="font-size: 0.8rem;">&#169; 2020 . .</p>
@@ -131,14 +116,14 @@
 </footer>
 
   <script>
-    $(".btn-en").click(function(){ 
+    $(".btn-en").click(function(){
        if (location.pathname.split("/").length < 3) {
            location.replace("http://"+ location.host + "/en/")
        } else {
            location.replace("http://"+location.host + "/en/" + location.pathname.split("/")[2]);
        }
-     });      
-  </script>   
+     });
+  </script>
   <script>
     $(".btn-zh-hant").click(function(){
        if (location.pathname.split("/").length < 3) {
@@ -155,7 +140,7 @@
        } else {
            location.replace("http://"+location.host + "/zh-hans/" + location.pathname.split("/")[2]);
        }
-     });      
+     });
   </script>
   <!-- Flying text on main page -->
   <script>
@@ -197,129 +182,9 @@
         opacity: ml4.opacityIn,
         scale: ml4.scaleIn,
         duration: ml4.durationIn
-      });    
+      });
   </script>
 
-  <!-- sermon -->
-  <script src="/assets/video/dist/video.js"></script>
-  <script src="/assets/video/videojs-playlist.js"></script>
-  <script src="/assets/video/videojs-playlist-ui.js"></script>
-  <script>
-    var player = videojs('video');
-
-    player.playlist([{
-      name: 'Disney\'s Oceans 1',
-      description: 'Explore the depths of our planet\'s oceans. ' +
-        'Experience the stories that connect their world to ours. ' +
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-        'sed do eiusmod tempor incididunt ut labore et dolore magna ' +
-        'aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
-        'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure ' +
-        'dolor in reprehenderit in voluptate velit esse cillum dolore eu ' +
-        'fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ' +
-        'proident, sunt in culpa qui officia deserunt mollit anim id est ' +
-        'laborum.',
-      duration: 45,
-      sources: [
-        { src: 'http://vjs.zencdn.net/v/oceans.mp4', type: 'video/mp4' },
-        { src: 'http://vjs.zencdn.net/v/oceans.webm', type: 'video/webm' },
-      ],
-
-      // you can use <picture> syntax to display responsive images
-      thumbnail: [
-        {
-          srcset: 'test/example/oceans.jpg',
-          type: 'image/jpeg',
-          media: '(min-width: 400px;)'
-        },
-        {
-          src: 'test/example/oceans-low.jpg'
-        }
-      ]
-    },
-    {
-      name: 'Disney\'s Oceans 2',
-      description: 'Explore the depths of our planet\'s oceans. ' +
-        'Experience the stories that connect their world to ours. ' +
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-        'sed do eiusmod tempor incididunt ut labore et dolore magna ' +
-        'aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
-        'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure ' +
-        'dolor in reprehenderit in voluptate velit esse cillum dolore eu ' +
-        'fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ' +
-        'proident, sunt in culpa qui officia deserunt mollit anim id est ' +
-        'laborum.',
-      duration: 45,
-      sources: [
-        { src: 'http://vjs.zencdn.net/v/oceans.mp4?2', type: 'video/mp4' },
-        { src: 'http://vjs.zencdn.net/v/oceans.webm?2', type: 'video/webm' },
-      ],
-
-      // you can use <picture> syntax to display responsive images
-      thumbnail: [
-        {
-          srcset: 'test/example/oceans.jpg',
-          type: 'image/jpeg',
-          media: '(min-width: 400px;)'
-        },
-        {
-          src: 'test/example/oceans-low.jpg'
-        }
-      ]
-    },
-    {
-      name: 'Disney\'s Oceans 3',
-      description: 'Explore the depths of our planet\'s oceans. ' +
-        'Experience the stories that connect their world to ours. ' +
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-        'sed do eiusmod tempor incididunt ut labore et dolore magna ' +
-        'aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
-        'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure ' +
-        'dolor in reprehenderit in voluptate velit esse cillum dolore eu ' +
-        'fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ' +
-        'proident, sunt in culpa qui officia deserunt mollit anim id est ' +
-        'laborum.',
-      duration: 45,
-      sources: [
-        { src: 'http://vjs.zencdn.net/v/oceans.mp4?3', type: 'video/mp4' },
-        { src: 'http://vjs.zencdn.net/v/oceans.webm?3', type: 'video/webm' },
-      ],
-
-      // you can use <picture> syntax to display responsive images
-      thumbnail: [
-        {
-          srcset: 'test/example/oceans.jpg',
-          type: 'image/jpeg',
-          media: '(min-width: 400px;)'
-        },
-        {
-          src: 'test/example/oceans-low.jpg'
-        }
-      ]
-    }, {
-      name: 'Sintel (No Thumbnail)',
-      description: 'The film follows a girl named Sintel who is searching for a baby dragon she calls Scales.',
-      sources: [
-        { src: 'http://media.w3.org/2010/05/sintel/trailer.mp4', type: 'video/mp4' },
-        { src: 'http://media.w3.org/2010/05/sintel/trailer.webm', type: 'video/webm' },
-        { src: 'http://media.w3.org/2010/05/sintel/trailer.ogv', type: 'video/ogg' }
-      ],
-      thumbnail: false
-    },
-
-    // This is a really underspecified video to demonstrate the
-    // behavior when optional parameters are missing. You'll get better
-    // results with more video metadata!
-    {
-      name: 'Invalid Source',
-      sources: [{
-        src: 'Invalid'
-      }]
-    }]);
-
-    // Initialize the playlist-ui plugin with no option (i.e. the defaults).
-    player.playlistUi();
-  </script>
 
 <script>
     $(document).ready(function() {
@@ -329,7 +194,7 @@
           $(".vid-item .thumb").removeClass("active");
           $(".vid-item:nth-child(" + current_index + ").thumb").addClass("active");
         });
-      }); 
+      });
     });
 </script>
 
