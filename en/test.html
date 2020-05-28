@@ -1,0 +1,86 @@
+<head>
+<link rel="text/stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+
+<style>
+$blue: #DDEDFF;
+$dark-blue: #0087FF;
+
+$yellow: #FEF0B2;
+$dark-yellow: #FFBD00; 
+
+$pink: #FAD2E1;
+$dark-pink: #F84F7F;
+
+$purple: #DFCCFF;
+$dark-purple: #7F51F4;
+
+@mixin color-panel($color1, $color2){
+    border: 1px solid $color2;
+    background-color: $color1;
+    color: $color2;
+}
+
+body {
+  margin: 4rem 0;
+}
+ 
+h4 {
+  margin-bottom:2rem;
+  margin-top: 3rem;
+}
+
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+  &.panel-blue {
+    @include color-panel($blue, $dark-blue);
+  }
+  
+  &.panel-yellow{
+    @include color-panel($yellow, $dark-yellow);
+  }
+  
+  &.panel-pink{
+    @include color-panel($pink, $dark-pink);
+  }
+  
+  &.panel-purple {
+    @include color-panel($purple, $dark-purple);
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="panel panel-blue">This is a single column.</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="panel panel-purple">This is the first column.</div>
+    </div>
+     <div class="col">
+       <div class="panel panel-purple">This is the second column.</div>
+     </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="panel panel-pink">This is the first column.</div>
+    </div>
+     <div class="col">
+       <div class="panel panel-pink">This is the second column.</div>
+     </div>
+    <div class="col">
+      <div class="panel panel-pink">This is the third column.</div>
+    </div>
+     <div class="col">
+       <div class="panel panel-pink">This is the fourth column.</div>
+     </div>
+  </div>  
+</div>
+</body>

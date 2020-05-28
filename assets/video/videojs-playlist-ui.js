@@ -1,4 +1,4 @@
-/*! @name videojs-playlist-ui @version 3.8.0 @license Apache-2.0 */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('global/document'), require('video.js')) :
   typeof define === 'function' && define.amd ? define(['global/document', 'video.js'], factory) :

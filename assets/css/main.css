@@ -62,131 +62,155 @@ hr {
   vertical-align: middle;
 }
 
-/** Sermons **
-.sermons {
-  			margin: 30px;
+/** Sermons Live **/
+.sermons_live {
+  			margin-left: 0;
   			padding: 0;
-  			background: #ddd;
-  			font-family: Arial, Helvetica, sans-serif;
-  		}
-
-  		.title {
-  			width: 100%;
-  			max-width: 854px;
-  			margin: 0 auto;
-  		}
-
-  		.caption {
-  			width: 100%;
-  			max-width: 854px;
-  			margin: 0 auto;
-  			padding: 20px 0;
-  		}
-
-  		.vid-main-wrapper {
-  			width: 100%;
-  			max-width: 1100px;
-  			min-width: 440px;
   			background: #fff;
-  			margin: 0 auto;
+  			font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 60px;
   		}
 
-
-  		/*  VIDEO PLAYER CONTAINER
- 		############################### */
-  		.vid-container {
-		    position: relative;
-		    padding-bottom: 52%;
-		    padding-top: 30px; 
-		    height: 0; 
-            width:70%;
-            float:left;
+		.vid-container-live iframe,
+		.vid-container-live object,
+		.vid-container-live embed {
+            margin-bottom: 10px;
 		}
-		 
-		.vid-container iframe,
-		.vid-container object,
-		.vid-container embed {
-		    position: absolute;
-		    top: 0;
-		    left: 0;
-		    width: 100%;
-		    min-height: 420px;
-		}
-
 
 		/*  VIDEOS PLAYLIST 
  		############################### */
-		.vid-list-container {
-			width: 30%;
-            height:460px;
+		.vid-list-container {       
 			overflow: hidden;
-            float:right;
-		}
+            padding: 5px;
+            top: 0;
+            min-width: 250px;
+            display: flex;
+		} 
+
 
     .vid-list-container:hover, .vid-list-container:focus {
        overflow-y: auto;
      }
 
-		ol#vid-list {
+
+    div#vid-list-live {  
       margin:0;
+      margin-left: 15px;
       padding:0;
       background: #fff;
-		}
+   }
 
-    ul#vid-list li {
+    div#vid-list-live div {
       list-style: none;
     }
 
-    ul#vid-list li a {
+    div#vid-list-live div a {
       text-decoration: none;
       background-color: #fff;
-      height:70px;
-      display:block;
-      padding:10px;
     }
 
-    ul#vid-list li a:hover {
-      background-color:#F0F0F0;
+    div#vid-list-live div:hover {
+      background-color: #F0F0F0;
     }
 
-    .vid-thumb {
-      float:left;
-			margin-right: 8px;
+
+    .active-vid { 
+      background:#7A7A7A;
     }
+
+        #vid-list-live .date {
+            border-top: 1px solid #7A7A7A;
+            border-bottom: 1px solid #7A7A7A;
+			color: #000;
+			font-size: 16px;
+            text-indent: 5px;
+		}
+		#vid-list-live .desc {
+			color: #777;
+			font-size: 13px;
+            text-indent: 15px;
+		}
+
+
+
+/** Sermons **/
+.sermons {
+  			margin-left: 0;
+  			padding: 0;
+  			background: #fff;
+  			font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 60px;
+  		}
+
+
+		.vid-container iframe,
+		.vid-container object,
+		.vid-container embed {
+            margin-bottom: 10px;
+		}
+
+		/*  VIDEOS PLAYLIST 
+ 		############################### */
+		.vid-list-container {       
+			overflow: hidden;
+            padding: 5px;
+            top: 0;
+            min-width: 250px;
+            display: flex;
+		} 
+
+
+    .vid-list-container:hover, .vid-list-container:focus {
+       overflow-y: auto;
+     }
+
+
+    div#vid-list {  
+      margin:0;
+      margin-left: 15px;
+      padding:0;
+      background: #fff;
+   }
+
+    div#vid-list div {
+      list-style: none;
+    }
+
+    div#vid-list div a {
+      text-decoration: none;
+      background-color: #fff;
+    }
+
+    div#vid-list div:hover {
+      background-color: #F0F0F0;
+    }
+
 
     .active-vid { 
       background:#7A7A7A;
     }
 
         #vid-list .date {
+            border-top: 1px solid #7A7A7A;
+            border-bottom: 1px solid #7A7A7A;
 			color: #000;
-			font-size: 15px;
+			font-size: 16px;
+            text-indent: 5px;
 		}
 		#vid-list .desc {
-			color: #555;
+			color: #777;
 			font-size: 13px;
-            maring-left: 5px;
+            text-indent: 15px;
 		}
 
 
-		@media (max-width: 624px) {
-			body {
-				margin: 15px;
-			}
-			.caption {
-				margin-top: 40px;
-			}
-			.vid-list-container {
-				padding-bottom: 20px;
-			}
 
-		}
-
-ul#vid-list-live li {
+/** Sermon Live **/
+#vid-list-live div {
       list-style: none;
     }
 
-    ul#vid-list-live li a {
+    ul#vid-list-live div a {
       text-decoration: none;
       background-color: #fff;
       height:70px;
@@ -194,13 +218,8 @@ ul#vid-list-live li {
       padding:10px;
     }
 
-    ul#vid-list-live li a:hover {
+    ul#vid-list-live div a:hover {
       background-color:#F0F0F0;
-    }
-
-    .vid-thumb-live {
-      float:left;
-			margin-right: 8px;
     }
 
     .active-vid { 
@@ -212,23 +231,10 @@ ul#vid-list-live li {
 			font-size: 15px;
 		}
 		#vid-list-live .desc {
-			color: #555;
+			color: #777;
 			font-size: 13px;
-            maring-left: 5px;
+            maring-left: 15px;
 		}
 
 
-		@media (max-width: 624px) {
-			body {
-				margin: 15px;
-			}
-			.caption {
-				margin-top: 40px;
-			}
-			.vid-list-container {
-				padding-bottom: 20px;
-			}
-
-		}
-
-/** Sermons **/
+/** Sermons Live **/
