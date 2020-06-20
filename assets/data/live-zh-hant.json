@@ -34,12 +34,12 @@
                  { "type": "landscape", "title": "粵語堂報告",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dc7fM9IsvuUSEKCpYiwm3hy8ypZqwzWh2ectOpY2154w%253D%26st%3D2020-06-19T21%253A52%253A25Z%26se%3D2020-06-19T22%253A57%253A25Z%26sp%3Dr",
                    "category": "西雅圖",
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                  { "type": "landscape", "title": "國語堂報告",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621M.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dqn9dFclnp8LGviNGzRrlWeMIYq1M0xaCZVqFzLrWP3A%253D%26st%3D2020-06-20T02%253A32%253A05Z%26se%3D2020-06-20T03%253A37%253A05Z%26sp%3Dr",
                    "category": "西雅圖",
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                  { "type": "landscape", "title": "English Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621E.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DfLYHis91k%252B9yfzt3x5ciQD4ZuC2C1DEqfs%252Bnc231v3c%253D%26st%3D2020-06-20T02%253A33%253A51Z%26se%3D2020-06-20T03%253A38%253A51Z%26sp%3Dr",
@@ -49,22 +49,22 @@
                 { "type": "landscape", "title": "Cantonese Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DLp2%252FuoJMh%252BUTIZSJhA7IdcAJ6RMjPfYCyvQZ6%252BluqKA%253D%26st%3D2020-06-20T03%253A35%253A21Z%26se%3D2020-06-20T04%253A40%253A21Z%26sp%3Dr",
                    "category": "東區",
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                  { "type": "landscape", "title": "Mandarin Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621M.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DZWZz9%252BraHodWv8Hk%252Fnr1jDsDThfSAADkE9ufaMdiO%252Bo%253D%26st%3D2020-06-20T03%253A35%253A39Z%26se%3D2020-06-20T04%253A40%253A39Z%26sp%3Dr",
                    "category": "東區",
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                  { "type": "landscape", "title": "English Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621E.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3D%252F29L0OdhLV3f%252BSdJF1qIjwbNarCBHWJ8zyNJiWJ%252FkO0%253D%26st%3D2020-06-20T03%253A35%253A55Z%26se%3D2020-06-20T04%253A40%253A55Z%26sp%3Dr",
                    "category": "Redmond",  
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                  {
                    "type": "landscape", "title": "主頁",
                    "url": "/index.html",
-                   "image": "ecclogohome.png"
+                   "image": "/ecclogohome.png"
                  }
                ]
  }
