@@ -1,0 +1,18 @@
+ {
+               "bookendVersion": "v1.0",
+               "components": [
+                 { "type": "small", "title": "Seattle Cantonese Live Stream",
+                   "url": "https://www.youtube.com/embed/t1zczgWCZjM?autoplay=1",
+                   "image": "sea-c-live.png"
+                 },
+                 { "type": "small", "title": "Seattle Cantonese Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dc7fM9IsvuUSEKCpYiwm3hy8ypZqwzWh2ectOpY2154w%253D%26st%3D2020-06-19T21%253A52%253A25Z%26se%3D2020-06-19T22%253A57%253A25Z%26sp%3Dr",
+                   "image": "pdf.png"
+                 },
+                 {
+                   "type": "small", "title": "Back To Home",
+                   "url": "/index.html",
+                   "image": "ecclogohome.png"
+                 }
+               ]
+ }
