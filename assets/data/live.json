@@ -9,6 +9,22 @@
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dc7fM9IsvuUSEKCpYiwm3hy8ypZqwzWh2ectOpY2154w%253D%26st%3D2020-06-19T21%253A52%253A25Z%26se%3D2020-06-19T22%253A57%253A25Z%26sp%3Dr",
                    "image": "pdf.png"
                  },
+                 { "type": "small", "title": "Seattle Mandarin Live Stream",
+                   "url": "https://www.youtube.com/embed/DUA-SUkMAws?autoplay=1",
+                   "image": "sea-m-live.png"
+                 },
+                 { "type": "small", "title": "Seattle Mandarin Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621M.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dqn9dFclnp8LGviNGzRrlWeMIYq1M0xaCZVqFzLrWP3A%253D%26st%3D2020-06-20T02%253A32%253A05Z%26se%3D2020-06-20T03%253A37%253A05Z%26sp%3Dr",
+                   "image": "pdf.png"
+                 },
+                 { "type": "small", "title": "Seattle English Live Stream",
+                   "url": "https://www.youtube.com/embed/rFS_OUJ2l64?autoplay=1",
+                   "image": "sea-m-live.png"
+                 },
+                 { "type": "small", "title": "Seattle Mandarin Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621E.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DfLYHis91k%252B9yfzt3x5ciQD4ZuC2C1DEqfs%252Bnc231v3c%253D%26st%3D2020-06-20T02%253A33%253A51Z%26se%3D2020-06-20T03%253A38%253A51Z%26sp%3Dr",
+                   "image": "pdf.png"
+                 },
                  {
                    "type": "small", "title": "Back To Home",
                    "url": "/index.html",
