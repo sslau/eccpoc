@@ -63,7 +63,7 @@
                  },
                  {
                    "type": "landscape", "title": "主頁",
-                   "url": "/index.html",
+                   "url": "/zh-hant/index.html",
                    "image": "/ecclogohome.png"
                  }
                ]
