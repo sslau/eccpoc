@@ -44,7 +44,7 @@
                  { "type": "landscape", "title": "English Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621E.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DfLYHis91k%252B9yfzt3x5ciQD4ZuC2C1DEqfs%252Bnc231v3c%253D%26st%3D2020-06-20T02%253A33%253A51Z%26se%3D2020-06-20T03%253A38%253A51Z%26sp%3Dr",
                    "category": "Seattle",  
-                   "image": "pdf.png"
+                   "image": "/pdf.png"
                  },
                 { "type": "landscape", "title": "Cantonese Bulletin",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DLp2%252FuoJMh%252BUTIZSJhA7IdcAJ6RMjPfYCyvQZ6%252BluqKA%253D%26st%3D2020-06-20T03%253A35%253A21Z%26se%3D2020-06-20T04%253A40%253A21Z%26sp%3Dr",
