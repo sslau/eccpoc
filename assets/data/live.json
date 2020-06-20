@@ -46,8 +46,23 @@
                    "category": "Seattle",  
                    "image": "pdf.png"
                  },
+                { "type": "landscape", "title": "Cantonese Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DLp2%252FuoJMh%252BUTIZSJhA7IdcAJ6RMjPfYCyvQZ6%252BluqKA%253D%26st%3D2020-06-20T03%253A35%253A21Z%26se%3D2020-06-20T04%253A40%253A21Z%26sp%3Dr",
+                   "category": "Redmond",
+                   "image": "pdf.png"
+                 },
+                 { "type": "landscape", "title": "Mandarin Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621M.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DZWZz9%252BraHodWv8Hk%252Fnr1jDsDThfSAADkE9ufaMdiO%252Bo%253D%26st%3D2020-06-20T03%253A35%253A39Z%26se%3D2020-06-20T04%253A40%253A39Z%26sp%3Dr",
+                   "category": "Redmond",
+                   "image": "pdf.png"
+                 },
+                 { "type": "landscape", "title": "English Bulletin",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FRED20200621E.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3D%252F29L0OdhLV3f%252BSdJF1qIjwbNarCBHWJ8zyNJiWJ%252FkO0%253D%26st%3D2020-06-20T03%253A35%253A55Z%26se%3D2020-06-20T04%253A40%253A55Z%26sp%3Dr",
+                   "category": "Redmond",  
+                   "image": "pdf.png"
+                 },
                  {
-                   "type": "small", "title": "Back To Home",
+                   "type": "landscape", "title": "Home",
                    "url": "/index.html",
                    "image": "ecclogohome.png"
                  }
