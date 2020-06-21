@@ -22,7 +22,7 @@
                  { "type": "landscape", "title": "粵語堂",
                    "url": "https://www.youtube.com/embed/MMg3dBmqVbs?autoplay=1",
                    "category": "東區",
-                   "image": "/red-c_live.png"
+                   "image": "/assets/red-c_live.png"
                  },
                  { "type": "landscape", "title": "國語堂",
                    "url": "https://www.youtube.com/embed/BTT4M1PmLtM?autoplay=1",
@@ -37,7 +37,7 @@
                  { "type": "landscape", "title": "粵語堂報告",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dc7fM9IsvuUSEKCpYiwm3hy8ypZqwzWh2ectOpY2154w%253D%26st%3D2020-06-19T21%253A52%253A25Z%26se%3D2020-06-19T22%253A57%253A25Z%26sp%3Dr",
                    "category": "西雅圖",
-                   "image": "/pdf.png"
+                   "image": "/assets/pdf.png"
                  },
                  { "type": "landscape", "title": "國語堂報告",
                    "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200621M.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3Dqn9dFclnp8LGviNGzRrlWeMIYq1M0xaCZVqFzLrWP3A%253D%26st%3D2020-06-20T02%253A32%253A05Z%26se%3D2020-06-20T03%253A37%253A05Z%26sp%3Dr",
