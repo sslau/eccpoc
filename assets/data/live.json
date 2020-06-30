@@ -35,7 +35,7 @@
                    "image": "/assets/red-e_live.jpg"
                  },
                  { "type": "small", "title": "SEATTLE Cantonese Bulletin",
-                   "url": "https://docs.google.com/viewer?embedded=true&url=https://eccseattle.blob.core.windows.net/eccweb-onlinebulletin-2020/SEA20200628C.pdf",
+                   "url": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Feccseattle.blob.core.windows.net%2Feccweb-onlinebulletin-2020%2FSEA20200628C.pdf%3Fsv%3D2016-05-31%26sr%3Db%26sig%3DZ9CGsmXRojm4nNuqP1vq56cfpsf4mcERwvT683APoeI%253D%26st%3D2020-06-30T15%253A57%253A12Z%26se%3D2020-06-30T17%253A02%253A12Z%26sp%3Dr",
                    "category": "Seattle",
                    "image": "/assets/pdf.png"
                  },
